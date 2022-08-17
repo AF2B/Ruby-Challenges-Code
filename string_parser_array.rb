@@ -19,7 +19,7 @@ def string_parser(array_string)
   result_array
 end
 
-describe 'String Parser' do
+describe 'string_parser' do
   context 'att the string array' do
     it 'should return just a percentage values' do
       expect(string_parser(string_array)).to eq([100, 30, 100, 80, 100, 65, 20])
